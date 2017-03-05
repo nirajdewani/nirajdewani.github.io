@@ -65,15 +65,15 @@ p {
   padding: 4px;
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
-  border-radius: 50%;
-  width: auto;
-  height: 6%;
+  border-radius: 50%;  
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 .sidebar-wrapper .name {
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -99,6 +99,9 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .contact-list .location .fa {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
@@ -211,7 +214,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;  
+  color: #97AAC3;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
